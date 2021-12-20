@@ -1,4 +1,5 @@
 {
-    "name": "Ska Package Build Workflow",
-    "description": "Builds a Ska conda package."
+  "name": "Build Ska Package",
+  "iconName": "ska_icon",
+  "description": "Builds a Ska conda package."
 }
