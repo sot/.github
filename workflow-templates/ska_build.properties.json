@@ -1,0 +1,4 @@
+{
+    "name": "Ska Package Build Workflow",
+    "description": "Builds a Ska conda package."
+}
