@@ -1,11 +1,5 @@
 {
   "name": "Publish Package Docs",
   "iconName": "ska_icon",
-  "description": "Publish sphinx documentation to main page.",
-  "categories": [
-    "Python"
-  ],
-  "filePatterns": [
-    "docs$"
-  ]
+  "description": "Publish sphinx documentation to main page."
 }
