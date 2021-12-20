@@ -1,0 +1,5 @@
+{
+  "name": "Release Ska Package",
+  "iconName": "ska_icon",
+  "description": "Performs actions when a Ska package is released."
+}

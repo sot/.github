@@ -1,0 +1,13 @@
+name: Release Ska Package
+on:
+  release:
+    types:
+      - released
+
+jobs:
+  build:
+    uses: sot/skare3/.github/workflows/package_release.yml@master
+    with:
+      noarch: true
+    secrets:
+      SKARE3_CI_API_TOKEN: ${{ secrets.SKARE3_CI_API_TOKEN }}

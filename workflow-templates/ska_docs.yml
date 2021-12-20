@@ -1,0 +1,16 @@
+name: Publish Package Docs
+on:
+  release:
+    types:
+    - released
+  repository_dispatch:
+    types:
+    - build-docs
+
+jobs:
+  build:
+    uses: sot/skare3/.github/workflows/package_docs.yml@master
+    with:
+      noarch: true
+    secrets:
+      CHANDRA_XRAY_TOKEN: ${{ secrets.CHANDRA_XRAY_TOKEN }}
