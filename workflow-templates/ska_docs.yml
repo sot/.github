@@ -10,7 +10,5 @@ on:
 jobs:
   build:
     uses: sot/skare3/.github/workflows/package_docs.yml@master
-    with:
-      noarch: true
     secrets:
       CHANDRA_XRAY_TOKEN: ${{ secrets.CHANDRA_XRAY_TOKEN }}
